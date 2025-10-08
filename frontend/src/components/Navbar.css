@@ -1,0 +1,21 @@
+/* Navbar.css */
+.navbar {
+  padding: 15px 20px;
+  background: linear-gradient(90deg, #4b6cb7, #182848);
+  color: white;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.navbar:hover {
+  transform: translateY(-3px);
+}
+
+.navbar h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
