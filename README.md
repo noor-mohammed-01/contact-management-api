@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # restful-contact-management-api
 
 
@@ -30,3 +31,6 @@ A full-stack Contact Management System built with Node.js, Express, MongoDB, and
 - GitHub README and setup guide
 
 ---Thank you---
+=======
+# contact-management-api
+>>>>>>> 745f31281bdf1fc33b668d44773d5e1800dfa1e5
