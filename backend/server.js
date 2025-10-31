@@ -7,13 +7,20 @@ const errorHandler = require("./middleware/error");
 
 const app = express();
 
-app.use(cors());
+// ✅ Allow only your frontend URL
+app.use(
+  cors({
+    origin: ["https://contact-frontend-v1vy.onrender.com"],
+    methods: ["GET", "POST", "DELETE", "PUT"],
+    credentials: true,
+  })
+);
+
 app.use(express.json());
 
 connectDB();
 
 app.use("/api/contacts", contactRoutes);
-
 app.use(errorHandler);
 
 app.listen(process.env.PORT || 5000, () =>
