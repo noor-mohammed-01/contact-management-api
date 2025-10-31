@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/contacts"; // ✅ Adjust to match backend route
+const API_URL ="https://contact-management-api-350w.onrender.com/api/contacts";
+
 
 export const getContacts = async () => {
   try {
